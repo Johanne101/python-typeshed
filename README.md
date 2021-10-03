@@ -11,11 +11,13 @@ See the end of this file for further copyright and license information.
 > 
 > **Fun Fact**:
 > 
->     "Python is named after the cult comedy show *Monty Python's Flying Circus* cult comedy show,
->      ***(Not after the snake...!)*** and you can find multiple references to **Monty Python** in the official documentation."
+> "Python is named after the cult comedy show
+> Monty Python's Flying Circus,(Not after the snake...!)
+> 
+> and you can find multiple references to Monty Python in the official documentation."
 
 
-..contents::
+::**contents**::
 
 General Information
 -------------------
