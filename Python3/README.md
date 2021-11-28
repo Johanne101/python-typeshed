@@ -62,3 +62,39 @@ Set, Dictionaries:
 ***Read or watch:***
 * [sets](https://www.w3schools.com/python/python_sets.asp)
 * [dictionaries](https://www.w3schools.com/python/python_dictionaries.asp)
+
+
+>>Input
+
+```
+thislist = ["uva", "china", "guineo"]
+thislist += ["manzana"]
+print(thislist)
+
+thistuple = ("china", "parcha", "mango", "guava")
+print(thistuple)
+
+thisset = {"perro", "gato", "gallina", "lobo"}
+print(thisset)
+
+thisdict = {
+"brand": "Jeep",
+"model": "compass",
+"year": 2012,
+"year": 2021,
+"color": "red",
+"edition": "limited"
+}
+print(thisdict)
+print(thisdict["year"])
+```
+
+>>Output
+
+```
+['uva', 'china', 'guineo', 'manzana']
+('china', 'parcha', 'mango', 'guava')
+{'gato', 'perro', 'gallina', 'lobo'}
+{'brand': 'Jeep', 'model': 'compass', 'year': 2021, 'color': 'red', 'edition': 'limited'}
+2021
+```
