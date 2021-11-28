@@ -22,11 +22,11 @@ Lists, Tuples
 
 
 |Data types|Description|Ordered or Unordered|Changeable or Unchangeable|Duplicates|syntax|
-|:---------|-----------|:-------------------|--------------------------|:--------:|------|
-|**List**|<p>Lists are used to store multiple items in a single variable. </p>|<p>**Ordered**, it means that the items have a defined order, and that order will not change. If you add new items to a list, the new items will be placed at the end of the list. </p>|**Changeable:** we can change, add, and remove items in a list after it has been created. |**Allows Duplicates:** Since lists are indexed, lists can have items with the same value|````thislist = ["item 1", "item 2", "item 3"]```` ````print(thislist)````|
+|:---------|-----------|:-------------------|--------------------------|:--------:|----------------------------|
+|**List**|<p>Lists are used to store multiple items in a single variable. </p>|<p>**Ordered**: means the items have a defined order, and that order will not change. If you add new items to a list, the new items will be placed at the end of the list. </p>|**Changeable:** we can change, add, and remove items in a list after it has been created. |**Allows Duplicates:** Since lists are indexed, lists can have items with the same value|````thislist = ["item 1", "item 2", "item 3"]```` ````print(thislist)````|
 |**Tuple**|<p>Tuples are used to store multiple items in a single variable.</p>|**Ordered**: It has a defined order and cannot be changed|**Unchangeable**|**Allows Duplicates**|````thistuple = ("apple", "banana", "cherry")```` ````print(thistuple)````|
 |**Set**|<p> Sets are used to store multiple items in a single variable. </p>|**Unordered**:<p> the items in a set do not have a defined order. Set items can appear in a different order every time you use them, and cannot be referred to by index or key.</p>|<p>**Unchangeable**: Set items are unchangeable, meaning that we cannot change the items after the set has been created. (*Once a set is created, you cannot change its items, but you can remove items and add new items.*) </p>|**Duplicates Not Allowed:**<p> Sets cannot have two items with the same value.</p>|````myset = {"apple", "banana", "cherry"}````|
-|**Dictionary**|Dictionaries are used to store data values in key:value pairs.|A dictionary is a collection which is ordered`*`,|changeable <p>we can change, add or remove items after the dictionary has been created.</p>| Not allow duplicates: Dictionaries cannot have two items with the same key (duplicate values will overwrite existing values)|````thisdict = {"brand": "Jeep", "model": "compass", "year": 2012}````|
+|**Dictionary**|Dictionaries are used to store data values in key:value pairs.|**Ordered**: A dictionary is a collection that the items have a defined order, and that order will not change.|changeable <p>we can change, add or remove items after the dictionary has been created.</p>| Not allow duplicates: Dictionaries cannot have two items with the same key (duplicate values will overwrite existing values)|````thisdict = {"brand": "Jeep", "model": "compass", "year": 2012}````|
 
 **meaning of:**
 <p>
@@ -39,7 +39,7 @@ And sets and dictionaries are;
 </p>
 
 + ordered:
-+ un-ordered:
++ Unordered: Unordered means that the items does not have a defined order, you cannot refer to an item by using an index.
 + duplicate
 + not duplicate
 
